@@ -10,11 +10,11 @@ const links = [
 
 export default function Navbar({ active = '/' }) {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-10 flex justify-between items-center px-12 py-5">
-      <Link href="/" className="font-display font-bold text-white text-lg tracking-tight">
+    <nav className="fixed top-0 left-0 right-0 z-20 flex flex-wrap justify-between items-center gap-x-6 gap-y-2 px-5 sm:px-12 py-4 sm:py-5 bg-[#0d1510]/40 backdrop-blur-sm">
+      <Link href="/" className="font-display font-bold text-white text-base sm:text-lg tracking-tight">
         Karim Hajj Ali
       </Link>
-      <ul className="flex gap-8 list-none">
+      <ul className="flex gap-3 sm:gap-8 list-none">
         {links.map(({ href, label }) => (
           <li key={href}>
             <Link

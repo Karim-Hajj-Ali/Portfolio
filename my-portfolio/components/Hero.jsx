@@ -2,9 +2,9 @@ import Image from 'next/image'
 
 export default function Hero() {
   return (
-    <div className="fixed inset-0 flex flex-col items-center justify-center text-center px-6">
+    <div className="relative z-10 min-h-screen flex flex-col items-center justify-center text-center px-6 pt-28 pb-16">
 
-      <div className="w-[280px] h-[280px] rounded-full border-2 border-white/70 overflow-hidden mb-6 shadow-[0_0_0_6px_rgba(255,255,255,0.08)]">
+      <div className="w-40 h-40 sm:w-56 sm:h-56 md:w-[280px] md:h-[280px] rounded-full border-2 border-white/70 overflow-hidden mb-6 shadow-[0_0_0_6px_rgba(255,255,255,0.08)]">
         <Image
           src="/karim.jpg"
           alt="Karim Hajj Ali"
@@ -15,11 +15,11 @@ export default function Hero() {
         />
       </div>
 
-      <h1 className="font-display font-bold text-white tracking-tight leading-tight mb-2 text-5xl">
+      <h1 className="font-display font-bold text-white tracking-tight leading-tight mb-2 text-3xl sm:text-4xl md:text-5xl">
         Hi, I'm Karim Hajj Ali
       </h1>
 
-      <p className="text-xs uppercase tracking-[0.22em] text-white/55 mb-8">
+      <p className="text-[10px] sm:text-xs uppercase tracking-[0.22em] text-white/55 mb-8">
         Computer Science & Engineering Student · AUB
       </p>
 

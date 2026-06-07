@@ -4,14 +4,14 @@ import Navbar from '@/components/Navbar'
 
 export default function About() {
   return (
-    <main className="relative w-full h-screen overflow-hidden">
+    <main className="relative w-full min-h-screen overflow-x-hidden">
       <Background />
       <Navbar active="/about" />
 
-      <div className="fixed inset-0 flex flex-col items-center justify-center px-6 text-center">
+      <div className="relative z-10 min-h-screen flex flex-col items-center justify-center px-6 pt-28 pb-16 text-center">
         <p className="text-xs uppercase tracking-[0.22em] text-white/40 mb-4">About Me</p>
 
-        <h2 className="font-display font-bold text-white text-4xl tracking-tight mb-8">
+        <h2 className="font-display font-bold text-white text-3xl sm:text-4xl tracking-tight mb-8">
           Who I am
         </h2>
 
