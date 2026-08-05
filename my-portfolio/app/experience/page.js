@@ -19,6 +19,21 @@ const experiences = [
       'Turning operational data into actionable insights that help teams keep projects moving and ship faster.',
     ],
   },
+  {
+    role: 'Gas Station Attendant',
+    type: 'Family Business · Seasonal',
+    company: 'Family Business',
+    location: 'Lebanon',
+    period: '2024 - Present',
+    current: true,
+    letterUrl: '',
+    stack: ['Customer Service', 'Operations', 'Cash Handling'],
+    points: [
+      'Working part-time during holidays since 2024, and part-time this summer alongside my internship at ITP Media Group, interacting directly with clients and fueling vehicles.',
+      'Managing crowded forecourt areas and coordinating traffic flow during peak, high-volume hours.',
+      'Learning the business side of operations, including cash flow management and day-to-day logistics.',
+    ],
+  },
 ]
 
 export default function Experience() {
