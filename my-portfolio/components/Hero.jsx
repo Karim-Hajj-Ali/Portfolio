@@ -55,8 +55,8 @@ export default function Hero() {
         style={{ animationDelay: '0.24s' }}
       >
         Passionate about <strong className="text-white font-medium">deep learning, machine learning</strong>, and{' '}
-        <strong className="text-white font-medium">generative AI & LLMs</strong>. I build intelligent
-        systems and turn research ideas into real-world products.
+        <strong className="text-white font-medium">generative AI & LLMs</strong>. I like building things
+        that work, taking research ideas and turning them into real products.
       </p>
 
       <div className="fade-up flex flex-wrap gap-3 justify-center" style={{ animationDelay: '0.3s' }}>

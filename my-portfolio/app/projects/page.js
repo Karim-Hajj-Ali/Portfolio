@@ -6,7 +6,7 @@ import SectionHeader from '@/components/SectionHeader'
 const projects = [
   {
     name: 'CedarFix AI',
-    period: 'Feb 2026 – May 2026',
+    period: 'Feb 2026 - May 2026',
     blurb: 'Multilingual AI platform for civic infrastructure complaints.',
     stack: ['Python', 'Qwen2.5', 'LoRA', 'RAG', 'Qdrant', 'GCP'],
     points: [
@@ -18,7 +18,7 @@ const projects = [
   },
   {
     name: 'Ou3a-Joura! - Pothole Detection',
-    period: 'Oct 2025 – Dec 2025',
+    period: 'Oct 2025 - Dec 2025',
     blurb: 'ML system that detects road potholes from phone sensors.',
     stack: ['Python', 'Java', 'ML', 'Android Sensors'],
     points: [
@@ -29,7 +29,7 @@ const projects = [
   },
   {
     name: 'xv6 Operating System Extensions',
-    period: 'Jul 2025 – Aug 2025',
+    period: 'Jul 2025 - Aug 2025',
     blurb: 'Custom kernel system calls and a login mechanism.',
     stack: ['C', 'xv6', 'QEMU'],
     points: [
@@ -51,7 +51,7 @@ const projects = [
   },
   {
     name: 'Smart Hotel Reservation System',
-    period: 'Sep 2025 – Dec 2025',
+    period: 'Sep 2025 - Dec 2025',
     blurb: 'Normalized relational database for a multi-branch hotel.',
     stack: ['PostgreSQL', 'SQL / PLpgSQL'],
     points: [

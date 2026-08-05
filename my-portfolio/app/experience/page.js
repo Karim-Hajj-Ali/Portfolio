@@ -14,9 +14,9 @@ const experiences = [
     letterUrl: '',
     stack: ['Full-Stack', 'AI', 'Automation', 'Real-time Analytics'],
     points: [
-      'Building an AI-powered command center that monitors the company\'s content production pipeline and detects stalls and bottlenecks in real time.',
-      'Developing full-stack features across the frontend and backend to surface pipeline health and automatically flag delayed or blocked stages.',
-      'Turning operational data into actionable insights that help teams keep projects moving and ship faster.',
+      'Building an AI-powered command center that watches the company\'s content production pipeline and catches stalls or bottlenecks as they happen.',
+      'Building full-stack features across the frontend and backend to show pipeline health and flag stages that are running late or stuck.',
+      'Turning raw operational data into something the team can actually act on, so projects keep moving and ship faster.',
     ],
   },
   {
@@ -29,9 +29,9 @@ const experiences = [
     letterUrl: '',
     stack: ['Customer Service', 'Operations', 'Cash Handling'],
     points: [
-      'Working part-time during holidays since 2024, and part-time this summer alongside my internship at ITP Media Group, interacting directly with clients and fueling vehicles.',
-      'Managing crowded forecourt areas and coordinating traffic flow during peak, high-volume hours.',
-      'Learning the business side of operations, including cash flow management and day-to-day logistics.',
+      'Working holidays since 2024, and picking up part-time shifts this summer alongside my internship, dealing directly with customers and fueling cars.',
+      'Handling busy, crowded hours at the pumps and keeping traffic moving smoothly.',
+      'Picking up how the business actually runs day to day, from cash flow to daily operations.',
     ],
   },
 ]
