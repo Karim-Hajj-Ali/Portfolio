@@ -9,8 +9,9 @@ const experiences = [
     type: 'Internship',
     company: 'ITP Media Group',
     location: 'Lebanon',
-    period: 'Jun 2026 - Present',
+    period: 'Jun 2026 - Aug 2026',
     current: true,
+    letterUrl: '',
     stack: ['Full-Stack', 'AI', 'Automation', 'Real-time Analytics'],
     points: [
       'Building an AI-powered command center that monitors the company\'s content production pipeline and detects stalls and bottlenecks in real time.',
@@ -59,10 +60,30 @@ export default function Experience() {
                     </span>
                   </div>
 
-                  <p className="mt-1 text-sm font-medium text-white/80">
-                    {exp.company}
-                    <span className="text-white/40 font-light"> · {exp.location}</span>
-                  </p>
+                  <div className="flex flex-wrap items-center justify-between gap-x-3 gap-y-2 mt-1">
+                    <p className="text-sm font-medium text-white/80">
+                      {exp.company}
+                      <span className="text-white/40 font-light"> · {exp.location}</span>
+                    </p>
+
+                    {exp.letterUrl ? (
+                      <a
+                        href={exp.letterUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1.5 text-[11px] sm:text-xs font-medium text-emerald-200/90 bg-emerald-400/[0.07] border border-emerald-400/20 hover:bg-emerald-400/[0.14] hover:border-emerald-400/35 transition-colors rounded-full px-3 py-1"
+                      >
+                        Employer Letter
+                      </a>
+                    ) : (
+                      <span
+                        className="inline-flex items-center gap-1.5 text-[11px] sm:text-xs font-medium text-white/30 bg-white/[0.03] border border-white/10 rounded-full px-3 py-1 cursor-not-allowed"
+                        title="Coming soon"
+                      >
+                        Employer Letter
+                      </span>
+                    )}
+                  </div>
 
                   <div className="flex flex-wrap gap-2 my-4">
                     {exp.stack.map((tech) => (
