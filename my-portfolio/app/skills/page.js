@@ -5,10 +5,6 @@ import SectionHeader from '@/components/SectionHeader'
 
 const compactGroups = [
   {
-    title: 'Programming',
-    items: ['Python', 'C / C++', 'Java', 'SQL'],
-  },
-  {
     title: 'AI / ML',
     items: [
       'scikit-learn',
@@ -20,6 +16,10 @@ const compactGroups = [
       'Data preprocessing',
       'Model evaluation',
     ],
+  },
+  {
+    title: 'Programming',
+    items: ['Python', 'C / C++', 'Java', 'SQL'],
   },
   {
     title: 'Tools',
