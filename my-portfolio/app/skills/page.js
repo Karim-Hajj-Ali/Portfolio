@@ -19,7 +19,7 @@ const compactGroups = [
   },
   {
     title: 'Programming',
-    items: ['Python', 'C / C++', 'Java', 'SQL'],
+    items: ['Python', 'C / C++', 'Java', 'SQL', 'HTML', 'CSS', 'JavaScript'],
   },
   {
     title: 'Tools',
